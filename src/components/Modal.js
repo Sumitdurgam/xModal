@@ -14,7 +14,7 @@ const Modal = ({ setIsOpen }) => {
           <div className="modal-content">
             <form>
               {/* <caption>Fill Details</caption> */}
-              <label for="username" className={styles.inpurLabel}>Username:</label>
+              <label for="username" className={styles.inputLabel}>Username:</label>
               <br />
               <input
                 type="text"
@@ -26,19 +26,19 @@ const Modal = ({ setIsOpen }) => {
               <br />
               <br />
 
-              <label for="email" className={styles.inpurLabel}>Email Address:</label>
+              <label for="email" className={styles.inputLabel}>Email Address:</label>
               <br />
               <input
                 type="email"
                 className={styles.inputFiled}
                 id="email"
-                name="password"
+                name="email"
                 required
               />
               <br />
               <br />
 
-              <label for="phone" className={styles.inpurLabel}>Phone Number:</label>
+              <label for="phone" className={styles.inputLabel}>Phone Number:</label>
               <br />
               <input
                 type="tel"
@@ -50,7 +50,7 @@ const Modal = ({ setIsOpen }) => {
               <br />
               <br />
 
-              <label for="dob" className={styles.inpurLabel}>Date of Birth:</label>
+              <label for="dob" className={styles.inputLabel}>Date of Birth:</label>
               <br />
               <input
                 type="date"
